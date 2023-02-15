@@ -26,10 +26,9 @@ function calcSumArrIndex(array){
     } 
     return arr
   }
-  // console.log(arrPush(8));
   
   function main(){
-    let calcNewArray = calcSumArrIndex(getArray(4));
+    let calcNewArray = getArray(calcSumArrIndex(4));
     return calcNewArray
   }
   console.log(main())
